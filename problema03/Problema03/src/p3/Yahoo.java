@@ -7,18 +7,18 @@ package p3;
 
 /**
  *
- * @author reroes
+ * @author User
  */
-public class DominioGmail implements Dominio {
-    private String dominio;
-    
+public class Yahoo implements Dominio{
+     private String dominio;
+
     @Override
-    public void establecerDominio(String g){
+    public void establecerDominio(String g) {
         dominio = g;
     }
-    
+
     @Override
-    public String obtenerDominio(){
+    public String obtenerDominio() {
         return dominio;
     }
 }
